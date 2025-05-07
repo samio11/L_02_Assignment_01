@@ -109,7 +109,7 @@
   }
 
   function getDayType(day: Day): string {
-    if (day == Day.Sunday || day == Day.Friday) {
+    if (day == Day.Sunday || day == Day.Saturday) {
       return "WeekEnd";
     } else {
       return "WeekDay";
